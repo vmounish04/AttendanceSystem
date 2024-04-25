@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Attendance Management System</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Bootstrap Icons CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.19.0/font/bootstrap-icons.css">
+  
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  
+  <!-- Custom CSS -->
+  <style>
+  @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+    body {
+      background-color: #f8f9fa;
+      font-family: cooper;
+
+    }
+    .manju {
+	  background-image: url("attendancebg.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+	}
+    .container {
+      margin-top: 0px;
+      height:80vh;
+      
+    }
+    .card {
+      margin-bottom: 20px;
+      
+    }
+    .col-md-4 {
+		margin-top: 100px;
+		
+	}
+.footer {
+    width: 100%;
+    margin-top: 2%;
+	background-color:salmon;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size:140%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .ft-2{
+    color: rgb(249, 248, 248);
+    margin-left: 25%;
+  }
+  .ft-2 h3{
+    color: white;
+    border-bottom: 3PX solid white;
+    margin-right: 35%;
+  }
+  .ft-1{
+    padding: 25px 25px;
+  }
+  .btm-ft{
+    color: black;
+    text-align: center;
+    padding: 5px 0px;
+
+  }
+    .nav1{
+        background-color: aqua;
+    }
+  .menu {
+	padding-right:80px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 5px;
+    padding-top: 0px;
+    background: white;
+    text-align:center;
+    font-family: Cooper Black;
+    color: black;
+    font-size: 15px;
+    height: 55px;
+    }
+
+  </style>
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<div class="nav1">
+<nav class="navbar navbar-dark bg-dark">
+  <span class="navbar-brand mb-0 h1" style="margin-left: auto;margin-right: auto;color:aqua;font-size: 60px;">Attendance Management System</span>
+</nav>
+</div>
+<div class="menu">
+	
+</div>
+<div class="manju">
+<!-- Main Content -->
+<div class="container">
+  <div class="row">
+    <!-- Dashboard Module -->
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">ADMIN</h5>
+          <p class="card-text">View overall information.</p>
+          <a href="adminlogin.jsp" class="btn btn-primary">Get Access</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Add Attendance Module -->
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">FACULTY</h5>
+          <p class="card-text">Add attendance for students.</p>
+          <a href="facultylogin.jsp" class="btn btn-success">Log In</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- View Attendance Module -->
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">STUDENT</h5>
+          <p class="card-text">View attendance records of student.</p>
+          <a href="stulogin.jsp" class="btn btn-info">Log In</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- Footer -->
+<div class="footer">
+
+  <div class="ft-1"><div class="ft-2">
+    <h3 class="h3-1">OUR TEAM</h3><br>
+        SULTHANA<br />
+        REKHA<br />
+        MOUNISH<br/>
+        MANJU<br />
+  </div></div>
+  <div class="ft-1"><div class="ft-2">
+    <h3 class="h3-1">HELP LINE</h3><br>
+    9987634234<br />
+    6578675653<br />
+    8545476854<br/>
+    8545476855<br/>
+      </div></div>
+  <div class="ft-1"><div class="ft-2"> <h3>SOCIALMEDIA</h3><br>
+    <a href="#"> <i class="bi bi-instagram" style="display: inline;  color: white">  Mounish@....</i></a><br />
+    <a href="#"><i class="bi bi-twitter" style="display: inline; color: white"> Rekha@...</i><br />
+    <a href="#"><i class="bi bi-instagram" style="display: inline; color: white"> Sulthana@....</i><br />
+  <a href="#"><i class="bi bi-linkedin" style="display: inline;  color: white"> Manju@..</i><br />
+  </div></div>
+  </div>
+  <div class="btm-ft">
+<h6>copyright by @Mounish</h6>
+  </div>
+</body>
+</html>
